@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+{% block tapas %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ asset('css/table.css') }}" />
+    <title></title>
+  </head>
+  <body>
+    <br>
+    <br>
+    <table>
+      <tr>
+        <th class="text-left">Nombre</th>
+        <th class="text-left">Descripción</th>
+        <th class="text-left">Fecha Creación</th>
+        <th class="text-left">Precio</th>
+        <th class="text-left">Foto</th>
+        <th class="text-left">Borrar</th>
+      </tr>
+    {% for item in AllTapas %}
+
+        <tr>
+          <td class="text-left">{{ item.nombre }}</td>
+          <td class="text-left">{{ item.descripcion }}</td>
+          <td class="text-left">{{ item.fechaCreacion |date}}</td>
+          <td class="text-left">{{ item.precio }}</td>
+          <td class="text-left">{{ item.foto }}</td>
+          <td class="text-left"><a class="form"href="{{ path('borrartapas',{'id':item.id}) }}" />Borrar</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+  </body>
+</html>
+{% endblock %}

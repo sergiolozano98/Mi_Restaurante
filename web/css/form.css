@@ -1,0 +1,34 @@
+body{
+  background-image:url(https://lh3.googleusercontent.com/xqr4OW7P5-hxnMMP3TFRFXggqVoVucgI4x0GkeFVSTYG9zP_L3reVuw67OdQOyU4cC2l7CRI7-GtmGLwIIpCVOTB1yeiScQ8_-WndpKMR22pavNDinMv4DARpRBX-OqtusGMx-v-OuBtHSno7sqU3eWqhlGRNS6TmbH02GUJGN1hZMoaHpzREScZxn3tEjOHZ8gWsKUOoaQnrpavhJEQ-qOKKL3v0eqNhvG0K2e-WMJozfUOw4BrgpJzryNBRFj1NUyX7awsY_uj0Cs6PHGQXVThZgHfEvK18SB8qLRgO3v6gJ6EvNtvDCjsrNbxfHkT8Zeqwb3F8QprDgOoI9TDMdLNq2Ya-RteCtNWaWnoW4FoJOt7dkmAEa_TlnR1EaRguaLRqdCRcrrX4IRXUxCG5kiz_kdA-oNUMnOMucEoceAD0bYGmhBgBEFm7hzgXdgvJ65CreUZ_r-POptctqQOsn2MZ9Z0mA9E5sAPylLVB68RvRi7CbQ3uW3n4xL4-ah6BPzpVYS6NnZCIpwi718TVeG_96XVqx3zNdG74pmPtpJaYNTbtFJiAvGfEpHfJHV0ojXE=w1469-h979-no);
+  background-size: cover;
+}
+#tapasbundle_tapas_insertar{
+      width: 200px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+}
+#tapasbundle_tapas_insertar:hover{
+      background-color: #45a049;
+}
+#caja{
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+     width: 240px;
+     height: 640px;
+     margin-left: 35%;
+     align-items: center;
+}
+  input[type=text], select {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
