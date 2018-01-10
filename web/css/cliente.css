@@ -1,0 +1,15 @@
+body{
+  background-image:url(https://lh3.googleusercontent.com/xqr4OW7P5-hxnMMP3TFRFXggqVoVucgI4x0GkeFVSTYG9zP_L3reVuw67OdQOyU4cC2l7CRI7-GtmGLwIIpCVOTB1yeiScQ8_-WndpKMR22pavNDinMv4DARpRBX-OqtusGMx-v-OuBtHSno7sqU3eWqhlGRNS6TmbH02GUJGN1hZMoaHpzREScZxn3tEjOHZ8gWsKUOoaQnrpavhJEQ-qOKKL3v0eqNhvG0K2e-WMJozfUOw4BrgpJzryNBRFj1NUyX7awsY_uj0Cs6PHGQXVThZgHfEvK18SB8qLRgO3v6gJ6EvNtvDCjsrNbxfHkT8Zeqwb3F8QprDgOoI9TDMdLNq2Ya-RteCtNWaWnoW4FoJOt7dkmAEa_TlnR1EaRguaLRqdCRcrrX4IRXUxCG5kiz_kdA-oNUMnOMucEoceAD0bYGmhBgBEFm7hzgXdgvJ65CreUZ_r-POptctqQOsn2MZ9Z0mA9E5sAPylLVB68RvRi7CbQ3uW3n4xL4-ah6BPzpVYS6NnZCIpwi718TVeG_96XVqx3zNdG74pmPtpJaYNTbtFJiAvGfEpHfJHV0ojXE=w1469-h979-no);
+  background-size: cover;
+
+}
+#caja{
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+     margin-top: 200px;
+     width: 200px;
+     height: 200px;
+     margin-left: 40%;
+     align-items: center;
+}

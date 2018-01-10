@@ -1,3 +1,8 @@
+cliente:
+    resource: "@ClienteBundle/Controller/"
+    type:     annotation
+    prefix:   /cliente/
+
 tapas:
     resource: "@tapasBundle/Controller/"
     type:     annotation

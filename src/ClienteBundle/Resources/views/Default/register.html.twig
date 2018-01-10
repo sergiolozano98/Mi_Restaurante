@@ -1,0 +1,24 @@
+{% block formulario %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/cliente.css">
+  </head>
+  <body>
+    <div id="caja">
+      {{ form_start(form)}}
+      {{ form_row(form.username)}}
+      {{ form_row(form.email)}}
+      {{ form_row(form.plainPassword.first)}}
+      {{ form_row(form.plainPassword.second)}}
+      {{ form_row(form.Salvar)}}
+      {{ form_row(form.Borrar)}}
+      {{ form_end(form)}}
+    </div>
+
+  </body>
+</html>
+
+{% endblock %}
